@@ -1,6 +1,7 @@
 li.main {
     display: inline;
     color: rgb(239, 96, 68)
+    text-align: center;
 }
 
 h1 {
@@ -8,4 +9,19 @@ h1 {
     font-style: italic;
     color:aqua
     font-family:antiquewhite
+    text-align: center;
+}
+h2.title{
+    font-size: larger;
+    color: rgb(190, 253, 204);
+    text-align: center;
+}
+
+#main {
+    background-color: rgb(159, 226, 236);
+    width: 600px;
+    height: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: small;
+    text-align: center;
 }
