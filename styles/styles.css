@@ -1,27 +1,75 @@
-li.main {
+/* Navigation menu item styling */
+mainmeun{
     display: inline;
-    color: rgb(239, 96, 68)
-    text-align: center;
-}
+    background-color:rgb(169, 122, 122);
+    font-size:larger;
+    padding: 5px;
+    margin: 5px;
+    }
 
+/* Main header styling */
 h1 {
     font-size: larger;
     font-style: italic;
-    color:aqua
-    font-family:antiquewhite
+    color: aqua;
+    font-family: antiquewhite;
     text-align: center;
 }
-h2.title{
+
+/* Subheader with class 'title' */
+h2.title {
     font-size: xxlarger;
     color: rgb(97, 219, 123);
     text-align: center;
 }
 
+/* ID selector for main content area */
 #main {
     background-color: rgb(159, 226, 236);
     width: 600px;
     height: 200px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     text-align: center;
+}
+
+
+/* General body styling with background image */
+body {
+    background-color: antiquewhite;
+    color: rgb(117, 99, 170);
+    background-image: url('https://assets.weforum.org/article/image/ek3sGupZavMFym4ZwTpTLTxF0RkhU20F2-XoJnnTXD0.jpg');
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Flexbox layout for navigation container */
+.flex-container{
+    display: flex;
+    direction: row;
+    background-color: rgb(167, 222, 244);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Button styling */
+button{
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/* Generic content block styling */
+.content {
+  margin: 20px;
+  padding: 15px;
 }

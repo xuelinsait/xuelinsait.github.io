@@ -1,0 +1,38 @@
+/* Navigation list item with class 'main' */
+li.main {
+    display: inline;
+    color: rgb(239, 96, 68);
+    text-align: center;
+}
+
+/* Main header styling */
+h1 {
+    font-size: larger;
+    font-style: italic;
+    color: aqua;
+    font-family: antiquewhite;
+    text-align: center;
+}
+
+/* Subheader with class 'title' */
+h2.title {
+    font-size: xxlarger;
+    color: rgb(97, 219, 123);
+    text-align: center;
+}
+
+/* ID selector for the main content block */
+#main {
+    background-color: rgb(159, 226, 236);
+    width: 600px;
+    height: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+    color: rgb(117, 99, 170);
+    background-image: url(https://www.google.com/imgres?q=travel&imgurl=https%3A%2F%2Fassets.weforum.org%2Farticle%2Fimage%2Fek3sGupZavMFym4ZwTpTLTxF0RkhU20F2-XoJnnTXD0.jpg&imgrefurl=https%3A%2F%2Fwww.weforum.org%2Fstories%2F2024%2F05%2Ftourism-travel-pandemic-economy%2F&docid=hNowWMYXzmy9-M&tbnid=b4_0UfjUCOBq6M&vet=12ahUKEwjW4urxireMAxVXGDQIHVtCOSsQM3oECGQQAA..i&w=5184&h=3456&hcb=2&ved=2ahUKEwjW4urxireMAxVXGDQIHVtCOSsQM3oECGQQAA);
+}
